@@ -3,7 +3,7 @@ import pickle
 
 st.set_page_config(page_title="Income Predictor", page_icon="💰")
 
-st.title("Income Predictor for Employees")
+st.title("Income Predictor")
 st.caption("This project is built for the AI15 and DS14")
 
 with open("model.pkl", "rb") as file:
